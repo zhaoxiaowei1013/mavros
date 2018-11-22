@@ -21,5 +21,8 @@
 		<arg name="log_output" value="$(arg log_output)" />
 		<arg name="fcu_protocol" value="$(arg fcu_protocol)" />
 		<arg name="respawn_mavros" default="$(arg respawn_mavros)" />
+		<param name="mocap/use_tf" value="false"/>
+		<param name="mocap/use_pose" value="true"/>
+
 	</include>
 </launch>
